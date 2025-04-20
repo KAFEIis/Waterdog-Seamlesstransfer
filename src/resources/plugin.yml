@@ -1,0 +1,12 @@
+name: SeamlessTransfer
+main: dev.waterdog.seamlesstransfer.SeamlessTransferPlugin
+version: 1.0.0
+author: YourName
+commands:
+  wtgtr:
+    description: 无缝传送到指定服务器
+    usage: /wtgtr <服务器名称>
+permissions:
+  seamlesstransfer.command.wtgtr:
+    description: 允许使用/wtgtr命令
+    default: true
